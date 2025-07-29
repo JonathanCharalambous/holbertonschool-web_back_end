@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-
+from typing import Union
 """Return a tuple containing a string and the square of a number."""
 
 
-def to_kv(k: str, v: int | float) -> tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> tuple[str, float]:
 
     """
     k: The string key.

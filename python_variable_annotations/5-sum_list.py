@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 from typing import List
-
 """Return the sum of a list of floating-point numbers."""
 
 

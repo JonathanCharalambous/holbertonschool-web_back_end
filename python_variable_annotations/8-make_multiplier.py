@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-from typing import Callable
+"""Creates a function that returns a multiplier function."""
 
-"""Return a function that multiplies a number by the given multiplier."""
+from typing import Callable
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
@@ -10,7 +10,6 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
     Return: A function that takes a float and returns the
       product of that float and multiplier.
     """
-
     def mul(n: float) -> float:
         """
         n: The float to multiply.

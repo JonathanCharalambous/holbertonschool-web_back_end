@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from typing import Callable
 
-"""Creates a function is reusable to make multipliers."""
+"""Return a function that multiplies a number by the given multiplier."""
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
@@ -11,7 +11,7 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
       product of that float and multiplier.
     """
 
-    """Return a function that multiplies a number by the given multiplier."""
+
     def mul(n: float) -> float:
         """
         n: The float to multiply.

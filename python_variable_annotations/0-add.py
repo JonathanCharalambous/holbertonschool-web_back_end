@@ -3,7 +3,6 @@
 """Add two floating-point numbers."""
 
 
-
 def add(a: float, b: float) -> float:
     """
     a: First floating-point number.

@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 
+"""Return a tuple containing a string and the square of a number."""
+
+
 def to_kv(k: str, v: int | float) -> tuple[str, float]:
-    """Return a tuple containing a string and the square of a number."""
+
+    """
+    k: The string key.
+    v: The integer or floating-point value.
+    Return: A tuple containing the key and the square of the value.
+    """
     return (k, float(v ** 2))

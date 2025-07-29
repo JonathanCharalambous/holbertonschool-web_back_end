@@ -11,7 +11,6 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
       product of that float and multiplier.
     """
 
-
     def mul(n: float) -> float:
         """
         n: The float to multiply.

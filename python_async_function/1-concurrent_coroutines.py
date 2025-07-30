@@ -2,8 +2,9 @@
 """Return a list of floating-point numbers in ascending order after waiting."""
 import asyncio
 from basic_async_syntax import wait_random
+from typing import List
 
-async def wait_n(n: int, max_delay: int = 10) -> list[float]:
+async def wait_n(n: int, max_delay: int = 10) -> List[float]:
     """
     n: The number of times to wait.
     max_delay: The maximum delay to wait for each call.

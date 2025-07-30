@@ -15,7 +15,7 @@ async def wait_n(n: int, max_delay: int = 10) -> List[float]:
     for _ in range(n):
         time = wait_random(max_delay)
         times.append(time)
-       
+
     for procedure in asyncio.as_completed(times):
         ordered_time = await procedure
         ordered_times.append(ordered_time)

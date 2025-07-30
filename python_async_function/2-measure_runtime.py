@@ -5,7 +5,7 @@ import time
 import asyncio
 
 
-async def measure_time(n: int, max_delay: int = 10) -> float:
+def measure_time(n: int, max_delay: int = 10) -> float:
     """
     n: The number of times to wait.
     max_delay: The maximum delay to wait for each call.
